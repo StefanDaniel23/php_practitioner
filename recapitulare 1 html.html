@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Medy Sport Line</title>
+  </head>
+  <body>
+<form method="post">
+  Anul Fabricatiei: </br>
+  <input type="text" name="Anul Fabricatiei">
+<br/>
+Model Masina: </br>
+  <input type="text" name="Model Masina">
+  <br/><br/>
+  <input type="submit" value="Trimite Datele">
+</form>
+<hr/>
+<form target="_blank">
+<input type="radio" name="Opel" value="Astra G"> Astra G<br/>
+<input type="radio" name="Opel" value="Astra H"> Astra H<br/>
+<input type="radio" name="Opel" value="Insignia Sport"> Insignia Sport
+<br/><br/>
+<input type="submit" value="Urmatorul Pas">
+</form>
+<hr/>
+<form>
+  <select name="imbracaminte" size="2" multiple>
+    <option value="tricou">Tricou</option>
+      <option value="camasa">Camasa</option>
+        <option value="sacou">Sacou</option>
+        </select>
+      <br/><br/>
+        <input type="submit" value="Alege">
+
+    </form>
+<hr/>
+<form>
+    <input type="button">Buton
+    <br/><br/>
+    <button type="button" onclick="alert('Ce pacaleala!')">Buton corect</button>
+  </form>
+<hr/>
+<form>
+  <fieldset style="width:230px;">
+    <legend>Grupa</legend>
+  <input list="Grupa">
+  <datalist id="Grupa">
+    <option value="A">
+      <option value="B">
+        <option value="C">
+          <option value="D">
+            <option value="E">
+  </datalist>
+  <input type="submit" value="Alege">
+</fieldset>
+</form>
+<hr/>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  <!--range este default de la 0 la 100-->
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+  <input type="color">
+  <input type="number"> <br/>
+ 
+</form>
+
+  </body>
+</html>
