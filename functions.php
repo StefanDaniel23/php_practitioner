@@ -9,7 +9,7 @@ $statement->execute();
 return $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
 }
 
-
+echo "ceva";
 
 function dd($data) {
 echo '<pre>';
